@@ -55,7 +55,6 @@
 		...Your markup here
 	</FullpageSection>
 </Fullpage>
-
 <style>
     :global(body) {
         height: 100vh;
