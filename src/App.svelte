@@ -9,6 +9,7 @@
 		Skeleton,
 		TextPlaceholder
 	} from 'flowbite-svelte'
+	import '../css/bootstrap.css'
 	import {
 		Fullpage,
 		FullpageSection,
@@ -54,3 +55,9 @@
 		...Your markup here
 	</FullpageSection>
 </Fullpage>
+
+<style>
+    :global(body) {
+        height: 100vh;
+    }
+</style>
